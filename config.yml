@@ -56,7 +56,7 @@ links:
       title: "Chat2Way on X."
       target: "_blank"
   - link:
-      icon: "fa-brands fa-square-github"
+      icon: "fa-brands fa-github"
       text: "Github"
       url: "https://github.com/chat2way"
       alt: "Chat2Way on GitHub Pages."
