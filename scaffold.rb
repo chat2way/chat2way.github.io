@@ -50,17 +50,17 @@ end
 
 template_content = File.read(template_file)
 
-settings["vars"] = {}
-if !settings["plugins"].nil?
-  settings["plugins"].each do |plugin|
-    pluginFileName = plugin.keys[0]
-    if File.exist?("./plugins/#{pluginFileName}.rb")
-      require_relative "./plugins/#{pluginFileName}.rb"
-      pluginObject = Object.const_get(pluginFileName).new(plugin.values)
-      settings["vars"][pluginFileName] = pluginObject.execute()
-    end
-  end
-end
+#settings["vars"] = {}
+#if !settings["plugins"].nil?
+  #settings["plugins"].each do |plugin|
+    #pluginFileName = plugin.keys[0]
+    #if File.exist?("./plugins/#{pluginFileName}.rb")
+      #require_relative "./plugins/#{pluginFileName}.rb"
+      #pluginObject = Object.const_get(pluginFileName).new(plugin.values)
+      #settings["vars"][pluginFileName] = pluginObject.execute()
+    #end
+  #end
+#end
 
 
 if !settings["links"].nil?
