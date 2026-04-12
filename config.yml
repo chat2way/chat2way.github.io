@@ -10,13 +10,12 @@ lang: "en"
 # Use {{ vars.PLUGIN_NAME }} in the settings below
 
 # The output of the plugin can be used below, e.g., {{vars.GithubRepoStarsCountPlugin}}
-plugins:
+#plugins:
   # Automatically fetch Github repo star count
-  - GithubRepoStarsCountPlugin:
-      - chat2way/ZMarkupParser
-      - chat2way/ZReviewTender
-      - chat2way/ZMediumToMarkdown
-      - chat2way/linkyee
+  #- GithubRepoStarsCountPlugin:
+      #- chat2way/ZMarkupParser
+      #- chat2way/ZReviewTender
+      #- chat2way/ZMediumToMarkdown
 
 # Google Analytics tracking id
 google_analytics_id:
