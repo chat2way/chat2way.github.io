@@ -43,10 +43,10 @@ tagline: >-
 links:
   - link:
       icon: "fa-solid fa-house-chimney"
-      text: "KSCC"
+      text: "Chat2Way"
       url: "https://www.ksyun.ai"
-      alt: "KSCC's Website"
-      title: "KSCC's Website"
+      alt: "chat2way's Website"
+      title: "chat2way's Website"
       target: "_blank"
   - link:
       icon: "fa-brands fa-twitter"
